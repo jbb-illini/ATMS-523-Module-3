@@ -131,7 +131,7 @@ else:
     p.varea(x='day_of_year', y1='record_min', y2='record_max', source=source, 
             fill_alpha=0.2, color="#B0C4DE", legend_label="Record")
 
-    # Plot 1981-2010 normal high/low range (medium blue fill).
+    # Plot 1981-2010 average high/low range (medium blue fill).
     p.varea(x='day_of_year', y1='avg_min', y2='avg_max', source=source, 
             fill_alpha=0.4, color="#6495ED", legend_label="Average")
 
